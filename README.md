@@ -2,6 +2,10 @@
 ### Launch Rancher container
 $ docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:stable
 
+### v2
+# v2
+$ sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
+
 ### Start 2 Virtualbox VMs with RancherOS
 $ docker-machine create -d virtualbox --virtualbox-boot2docker-url https://github.com/rancher/os/releases/download/v1.3.0/rancheros.iso rancheros1
 $ docker-machine create -d virtualbox --virtualbox-boot2docker-url https://github.com/rancher/os/releases/download/v1.3.0/rancheros.iso rancheros2
