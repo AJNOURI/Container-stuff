@@ -3,7 +3,6 @@
 $ docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:stable
 
 ### v2
-# v2
 $ sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
 
 ### Start 2 Virtualbox VMs with RancherOS
